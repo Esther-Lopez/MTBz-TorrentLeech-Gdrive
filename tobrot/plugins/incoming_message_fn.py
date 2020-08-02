@@ -96,7 +96,7 @@ async def incoming_message_f(client, message):
             await i_m_sefg.edit_text(err_message)
     else:
         await i_m_sefg.edit_text(
-            "**FCUK**! wat have you entered. \nPlease read /help \n"
+            "**FCUK**! wat have you entered. \nPlease read pinned msg or ask someone for help \n"
             f"<b>API Error</b>: {cf_name}"
         )
 #
